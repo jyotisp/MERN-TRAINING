@@ -1,0 +1,14 @@
+Welcome to MERN training !!!!
+<script>
+function lw(){
+x=document.getElementById("d1");
+z=document.getElementById("d3");
+x.innerHTML = z.value;
+}
+</script>
+
+<body>
+<div id="d1">first div</div>
+box1 <textarea id="d3" onkeyup="lw()"/>
+
+</body>
